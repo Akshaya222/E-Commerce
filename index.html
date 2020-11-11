@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--custom css-->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Bootstrap 4.5 CSS -->
+	<link rel="stylesheet" href="bootstrap.min.css">
+     <!--font awesome-->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <title>E-commerce</title>
+  </head>
+  <body>
+    <!--start of navbar-->
+    <nav class="navbar">
+        <div class="navbar-center">
+            <ul id="MenuItems">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./products.html">Products</a></li>
+                <li><a href="#testimonials">Testimonails</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#footer">Contact Us</a></li>
+            </ul>
+           <span class="menu-icon" onclick="menutoggle()"> <i class="fa fa-bars"></i></span>
+            <div class="cart-btn">
+                <span class="nav-icon">
+                    <i class=" fa fa-cart-plus"></i>
+                </span>
+                <div class="cart-items">0</div>
+            </div>
+        </div>
+    </nav>
+   
+   <!--end of navbar-->
+   <!--hero-->
+   <div class="hero">
+    <header class="banner">
+      
+    </header>
+   </div>
+  <!--end of hero-->
+  <!--products-->
+  <section class="products">
+      <div class="section-title">
+          <h2>our products</h2>
+      </div>
+      <div class="products-center">
+       
+      </div>
+  </section>
+   <!--end of products-->
+   <!--cart-->
+   <div class="cart-overlay">
+       <div class="cart">
+           <span class="close-cart">
+               <i class="fa fa-window-close"></i>
+           </span>
+           <h2>Your cart</h2>
+           <div class="cart-content">
+            <!--cart item-->
+            <!--
+                <div class="cart-item">
+               
+            </div>
+            
+            -->
+            <!--end of cart item-->
+           </div>
+           <div class="cart-footer">
+               <h3>your total : $ <span class="cart-total">0</span></h3>
+               <button class="clear-cart banner-btn">clear cart</button><br>
+               <button class="buynow">Buy Now</button>
+           </div>
+       </div>
+   </div>
+    <!--end of cart-->
+    <!--featured   products----->
+    <h2 class="fortitle">Featured products</h2>
+    <div class="products-center">
+        <article class="product">
+            <div class="img-container">
+                <img src="./images/boat-earpods.jpeg" class="product-img">
+                <button class="bag-btn" data-id="5"><i class="fa fa-shopping-cart"></i>
+                     add to bag</button>
+            </div>
+            <h3>Boat Earpods</h3>
+            <h4>$5.0</h4>
+         </article>
+         <article class="product">
+            <div class="img-container">
+                <img src="./images/watch.jpeg" class="product-img">
+                <button class="bag-btn" data-id="5"><i class="fa fa-shopping-cart"></i>
+                     add to bag</button>
+            </div>
+            <h3>Automatic Watch</h3>
+            <h4>$15.0</h4>
+         </article>
+         <article class="product">
+            <div class="img-container">
+                <img src="./images/headset-alphino.jpeg" class="product-img">
+                <button class="bag-btn" data-id="5"><i class="fa fa-shopping-cart"></i>
+                     add to bag</button>
+            </div>
+            <h3>Alphino Headset</h3>
+            <h4>$3.0</h4>
+         </article>
+         <article class="product">
+            <div class="img-container">
+                <img src="./images/speakers-1.jpeg" class="product-img">
+                <button class="bag-btn" data-id="5"><i class="fa fa-shopping-cart"></i>
+                     add to bag</button>
+            </div>
+            <h3>Speakers</h3>
+            <h4>$12.0</h4>
+         </article>
+     </div>
+      <!--end of featured   products----->
+      <!-----------latest products---------->
+      <h2 class="fortitle">Latest products</h2>
+    <div class="products-center">
+        <article class="product">
+            <div class="img-container">
+                <img src="./images/laptop-hp.jpeg" class="product-img">
+                <button class="bag-btn" data-id="5"><i class="fa fa-shopping-cart"></i>
+                     add to bag</button>
+            </div>
+            <h3>HP Laptop</h3>
+            <h4>$150.0</h4>
+         </article>
+         <article class="product">
+            <div class="img-container">
+                <img src="./images/mobile-oneplus.jpeg" class="product-img">
+                <button class="bag-btn" data-id="5"><i class="fa fa-shopping-cart"></i>
+                     add to bag</button>
+            </div>
+            <h3>One Plus</h3>
+            <h4>$76.0</h4>
+         </article>
+         <article class="product">
+            <div class="img-container">
+                <img src="./images/laptop-lenova.jpeg" class="product-img">
+                <button class="bag-btn" data-id="5"><i class="fa fa-shopping-cart"></i>
+                     add to bag</button>
+            </div>
+            <h3>Lenova Laptop</h3>
+            <h4>$120.0</h4>
+         </article>
+         <article class="product">
+            <div class="img-container">
+                <img src="./images/speakers.jpeg" class="product-img">
+                <button class="bag-btn" data-id="5"><i class="fa fa-shopping-cart"></i>
+                     add to bag</button>
+            </div>
+            <h3>Speakers</h3>
+            <h4>$19.0</h4>
+         </article>
+         <article class="product">
+            <div class="img-container">
+                <img src="./images/galaxyzflip.jpeg" class="product-img">
+                <button class="bag-btn" data-id="5"><i class="fa fa-shopping-cart"></i>
+                     add to bag</button>
+            </div>
+            <h3>Galaxy Z-Flip </h3>
+            <h4>$150.0</h4>
+         </article>
+         <article class="product">
+            <div class="img-container">
+                <img src="./images/earphones-boat.png" class="product-img">
+                <button class="bag-btn" data-id="5"><i class="fa fa-shopping-cart"></i>
+                     add to bag</button>
+            </div>
+            <h3>Boat Earphones</h3>
+            <h4>$10.0</h4>
+         </article>
+         <article class="product">
+            <div class="img-container">
+                <img src="./images/mobile-lava.jpeg" class="product-img">
+                <button class="bag-btn" data-id="5"><i class="fa fa-shopping-cart"></i>
+                     add to bag</button>
+            </div>
+            <h3>Lava Mobile</h3>
+            <h4>$90.0</h4>
+         </article>
+         <article class="product">
+            <div class="img-container">
+                <img src="./images/laptop-mac.png" class="product-img">
+                <button class="bag-btn" data-id="5"><i class="fa fa-shopping-cart"></i>
+                     add to bag</button>
+            </div>
+            <h3>Mac Laptop</h3>
+            <h4>$80.0</h4>
+         </article>
+     </div>
+       <!---------end of latest products------------>
+         <!---------offer------------>
+         <h2 class="fortitle" id="offer">Offer</h2>
+         <div class=" container-fluid offer">
+             <div class="row ">
+                     <div class="col-lg-3 justify-content-center">
+                         <img src="./images/laptop-asus.jpeg" class="offer-img">
+                     </div>
+                     <div class="col-lg-7">
+                        <p>Exclusively Available on AkshayaStore</p>
+                         <h1>Dell Laptop</h1>
+                         <small> Dell is an American multinational computer technology company that develops, s
+                             ells, repairs, and supports computers and related products and services.
+                         </small>
+                        </br>
+                         <button class="addtocart-btn"><i class="fa fa-shopping-cart"></i>
+                            add to bag &#8594</button>
+                     </div>
+                 </div>
+             
+         </div>
+          <!---------end of offer------------>
+          <!---------testimonails------------>
+          <h2 class="fortitle" id="testimonials">Testimonails</h2>
+          <div class="testimonails">
+              <div class="container-fluid">
+                  <div class="row">
+                      <div class="col-lg-4 col-md-6  testmonial-box">
+                          <i class="fa fa-quote-left"></i>
+                          <p>Dell is an American multinational computer technology company that develops, sells, 
+                              repairs, and supports computers and related products and services.</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <img src="./images/download (7).jpeg" alt="user">
+                            <h3>Sean par</h3>
+                      </div>
+                      <div class="col-lg-4 col-md-6 testmonial-box">
+                        <i class="fa fa-quote-left"></i>
+                           <p>Dell is an American multinational computer technology company that develops, sells, 
+                         repairs, and supports computers and related products and services.</p>
+                          <div class="rating">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                          </div>
+                          <img src="./images/download (7).jpeg" alt="user">
+                          <h3>Sean par</h3>
+                    </div>
+                    <div class="col-lg-4 col-md-6 testmonial-box">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Dell is an American multinational computer technology company that develops, sells, 
+                            repairs, and supports computers and related products and services.</p>
+                          <div class="rating">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star-o"></i>
+                              <i class="fa fa-star-o"></i>
+                          </div>
+                          <img src="./images/download (7).jpeg" alt="user">
+                          <h3>Sean par</h3>
+                    </div>
+                  </div>
+              </div>
+          </div>
+           <!---------end of testimonails------------>
+           <h2 class="fortitle" >Services</h2>
+           <div id="services" class="container">
+               
+               <div class="row">
+                   <div class="col-lg-3 col-md-5 col-sm-10">
+                        <img src="./images/refund.jpeg"  >
+                        <p>10 days Return Policy</p>
+                   </div>
+                   <div class="col-lg-3 col-md-5 col-sm-10">
+                    <img src="./images/delivary.png" >
+                    <p>Fast and Easy Delivery</p>
+               </div>
+               <div class="col-lg-3 col-md-5 col-sm-10">
+                <img src="./images/payment.jpeg" alt="">
+                <p>Safe Payment</p>
+           </div>
+               </div>
+           </div>
+           <!----------------brands------------->
+           <h2 class="fortitle">Brands</h2>
+           <div class="brands">
+               <div class="container">
+                   <div class="row">
+                       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6">
+                           <img src="./images/godrej-logo.jpeg">
+                       </div>
+                       <div class="col-lg-2  col-md-4 col-sm-6 col-xs-6">
+                        <img src="./images/cocacola-logo.jpeg">
+                       </div>
+                       <div class="col-lg-2  col-md-4 col-sm-6 col-xs-6">
+                          <img src="/images/oppo-logopng">
+                       </div>
+                       <div class="col-lg-2  col-md-4 col-sm-6 col-xs-6">
+                          <img src="./images/paypal-logo.png">
+                       </div>
+                       <div class="col-lg-2  col-md-4 col-sm-6 col-xs-6">
+                          <img src="./images/philips-logo.png">
+                       </div>
+                   </div>
+               </div>
+           </div>
+          <!---- -------footer------------>
+          <div  id="footer" class="footer">
+              <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download our App for Andriod and ios mobile phone.</p>
+                        <div class="app-logo">
+                            <img src="./images/play-store.jpeg">
+                            <img src="./images/appstore.png">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                       <img src="./images/godrej-logo.jpeg">
+                        <p>Our purpose is to Sustainably make the pleasure an Benefits of Sports Accessible to the Many.</p>
+                    </div>
+                    <div class="footer-col-3">
+                          <h3>Useful Links</h3>
+                          <ul>
+                              <li>Coupons</li>
+                              <li>BLog Post</li>
+                              <li>Return Policy</li>
+                              <li>Join Affiliate</li>
+                            </ul>
+                     </div>
+                     <div class="footer-col-4">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Instagram</li>
+                            <li>Youtube</li>
+                            <li>Twitter</li>
+                          </ul>
+                   </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2020 -AkshayaStore</p>
+              </div>
+          </div>
+ <script src="scripts.js"></script>
+  </body>
+</html>
